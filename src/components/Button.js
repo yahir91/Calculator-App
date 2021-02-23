@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = ({ buttons }) => (
+const Button = ({ name }) => (
   <div>
-    {buttons.map(symbol => (
-      <button key={symbol.toString()} type="button" className="buttons">
+    {name.map(symbol => (
+      <button key={symbol} type="button" className="buttons">
         {symbol}
       </button>
     ))}
@@ -12,7 +12,7 @@ const Button = ({ buttons }) => (
 );
 
 Button.propTypes = {
-  buttons: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 
 };
 
