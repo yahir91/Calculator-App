@@ -10,13 +10,31 @@ const ButtonPanel = () => {
 
   return (
     <div className="main">
-      <>
-        <Button name={group1} />
-        <Button name={group2} />
-        <Button name={group3} />
-        <Button name={group4} />
-        <Button name={group5} />
-      </>
+      <div>
+        {group1.map(item => (
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+        ))}
+      </div>
+      <div>
+        {group2.map(item => (
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+        ))}
+      </div>
+      <div>
+        {group3.map(item => (
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+        ))}
+      </div>
+      <div>
+        {group4.map(item => (
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+        ))}
+      </div>
+      <div>
+        {group5.map(item => (
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+        ))}
+      </div>
     </div>
   );
 };

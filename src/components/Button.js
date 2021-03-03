@@ -2,13 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ name }) => (
-  <div>
-    {name.map(symbol => (
-      <button key={symbol} type="button" className="buttons">
-        {symbol}
-      </button>
-    ))}
-  </div>
+  <>
+    <button type="button" className="buttons">
+      {name}
+    </button>
+  </>
 );
 
 Button.propTypes = {

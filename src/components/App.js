@@ -4,8 +4,8 @@ import ButtonPanel from './ButtonPanel';
 
 const App = () => (
   <>
-    <Display />
-    <ButtonPanel results="0" />
+    <Display results="0" />
+    <ButtonPanel />
   </>
 );
 
