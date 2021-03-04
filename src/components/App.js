@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   render() {  
-    const {total, next} = this.state
+    const {next} = this.state
     return (
       <div>
         < Display display={next} />

@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from './Button';
+import { checkPropTypes } from 'prop-types';
 
-const ButtonPanel = () => {
+const ButtonPanel = ({onClick}) => {
   const group1 = ['AC', '+/-', '%', '/'];
   const group2 = ['7', '8', '9', 'X'];
   const group3 = ['4', '5', '6', '-'];
@@ -12,27 +13,27 @@ const ButtonPanel = () => {
     <div className="main">
       <div>
         {group1.map(item => (
-          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} onClick={()=> onClick(item)} />
         ))}
       </div>
       <div>
         {group2.map(item => (
-          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} onClick={()=> onClick(item)} />
         ))}
       </div>
       <div>
         {group3.map(item => (
-          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} onClick={()=> onClick(item)} />
         ))}
       </div>
       <div>
         {group4.map(item => (
-          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} onClick={()=> onClick(item)} />
         ))}
       </div>
       <div>
         {group5.map(item => (
-          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} />
+          <Button key={`${item} + ${Math.random(0, 100)}`} name={item} onClick={()=> onClick(item)} />
         ))}
       </div>
     </div>
