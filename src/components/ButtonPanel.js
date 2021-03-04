@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from './Button';
-import { checkPropTypes } from 'prop-types';
 
 const ButtonPanel = ({onClick}) => {
   const group1 = ['AC', '+/-', '%', '/'];
