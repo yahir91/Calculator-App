@@ -1,25 +1,25 @@
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
-  const firstNumber = Big(numberOne);
-  const secondNumber = Big(numberTwo);
+  const firstNumber = new Big(numberOne);
+  secondNumber = numberTwo
 
   switch (operation) {
     case '+':
-      return firstNumber + secondNumber;
+      return firstNumber.plus(secondNumber);
     case '-':
-      return firstNumber - secondNumber;
+      return firstNumber.minus(secondNumber);
     case 'X':
-      return firstNumber * secondNumber;
+      return firstNumber.times(secondNumber);
     case '÷':
       if (secondNumber === '0') {
         return '0';
       }
-      return firstNumber / secondNumber;
+      return firstNumber.div(secondNumber);
     case '%':
-      return firstNumber * Big(0.01);
+      return firstNumber.times(0.01);
     case '+/-':
-      return firstNumber * Big(-1);
+      return firstNumber.times(-1);
     default:
       break;
   }
