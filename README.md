@@ -3,35 +3,29 @@ A Calculator using React framework.
 
 ## Live Demo
 
-[Live Demo](heroku)
+[Live Demo](https://calculator-yahir91.herokuapp.com/)
 
 ## Installation
 
 You can get a local copy of the repository please run the following commands on your terminal:
 ```
-$ cd <folder>
-$ git clone https://github.com/Ceci007/react-calculator.git
+$ git clone https://github.com/yahir91/Calculator-App.git
 ```
 
-Run `npm install` and after `npm start` in your terminal.
+Run `npm install` and then `npm start` in your terminal.
 
 ## Built With
 - React
 - HTML
 - CSS
 - Heroku
-
-## Tests
-
-Run `npm test` to run all tests
-
-![tests](./tests-screenshot.png)
+- Big.js
 
 ## Contributing
 
 Contributions, issues and feature requests are welcome!
 
-You can do it on [issues page](https://github.com/Ceci007/react-calculator/issues).
+You can do it on [issues page](https://github.com/yahir91/Calculator-App/issues).
 
 ## Acknowledgments
 
@@ -43,10 +37,10 @@ Give a ⭐️ if you like this project!
 
 ## Author
 
-👤 **Cecilia Benitez**
+👤 **Yahir Cardona**
 
-- [Github](https://github.com/Ceci007)
-- [LinkedIn](https://www.linkedin.com/in/cecilia-benítez)
+- [Github](https://github.com/yahir91)
+- [LinkedIn](https://www.linkedin.com/in/yahir-cardona/)
 
 ## 📝 License
 This project is [MIT](lic.url) licensed.
