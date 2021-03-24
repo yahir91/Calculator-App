@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family:
@@ -24,4 +25,87 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+button {
+  width: 25%;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px lightblue;
+  margin-bottom: 1rem;
+}
+
+.navbar div {
+  padding: 1rem;
+}
+
+.navbar a {
+  margin: 0 0.5rem;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.container h2 {
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto
+}
+
+.d-result {
+  display: flex;
+  height: 100px;
+  background: #858693;
+  color: white;
+  font-weight: 700;
+  justify-content: flex-end;
+  padding: 1.5rem 1rem;
+  font-size: 5rem;
+  margin: 4rem 0 0 0;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel div {
+  height: 100px;
+}
+
+.numbButton {
+  width: 25%;
+  height: 100%;
+  color: black;
+  text-align: center;
+  background: #e0e0e0;
+  font-size: 2rem;
+}
+
+.operateButton{
+  background: #f1903d;
+  font-size: 2rem;
+}
+
+.oButton {
+  width: 50%;
+  height: 100%;
+  color: black;
+  text-align: center;
+  background: #e0e0e0;
+  font-size: 2rem;
 }
