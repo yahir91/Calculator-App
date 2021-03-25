@@ -1,56 +1,46 @@
-# Getting Started with Create React App (Milestone 1)
+# react-calculator
+A Calculator using React framework.
 
-This is new created react project, with just the basics setups
+## Live Demo
 
-## Live Version 
-https://calculator-yahir91.herokuapp.com/
+[Live Demo](https://calculator-yahir91.herokuapp.com/)
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+You can get a local copy of the repository please run the following commands on your terminal:
+```
+$ git clone https://github.com/yahir91/Calculator-App.git
+```
 
-### `npm start`
+Run `npm install` and then `npm start` in your terminal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
+- React
+- HTML
+- CSS
+- Heroku
+- Big.js
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contributing
 
-### `npm run build`
+Contributions, issues and feature requests are welcome!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can do it on [issues page](https://github.com/yahir91/Calculator-App/issues).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Special thanks to code reviewers.
 
+## Show your support
 
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+👤 **Yahir Cardona**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Github](https://github.com/yahir91)
+- [LinkedIn](https://www.linkedin.com/in/yahir-cardona/)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+This project is [MIT](lic.url) licensed.
