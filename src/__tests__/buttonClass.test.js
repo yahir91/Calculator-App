@@ -1,23 +1,18 @@
 import buttonClass from '../logic/buttonClass';
 
-describe('User can use operations', () => {
-  test('Division(÷) operation', () => {
-    const result = operate('12', '3', '÷');
-    expect(result).toEqual(4);
+describe('Change the correct class name', () => {
+  test('create operate button class', () => {
+    const result = buttonClass('+');
+    expect(result).toEqual('operateButton');
   });
 
   test('Times(X) operation', () => {
-    const result = operate('6', '3', 'X');
-    expect(result).toEqual(18);
+    const result = buttonClass('0');
+    expect(result).toEqual('oButton');
   });
 
   test('Minus(-) operation', () => {
-    const result = operate('10', '4', '-');
-    expect(result).toEqual(6);
-  });
-
-  test('Plus(+) operation', () => {
-    const result = operate('6', '3', '+');
-    expect(result).toEqual(9);
+    const result = buttonClass('5');
+    expect(result).toEqual('numbButton');
   });
 });
