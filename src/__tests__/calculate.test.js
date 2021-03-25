@@ -5,7 +5,7 @@ describe('User press AC key', () => {
     expect(calculate({
       total: '5', next: '3', operation: '+',
     }, 'AC')).toEqual({
-      total: '', next: '', operation: '',
+      total: null, next: '0', operation: null,
     });
   });
   test('Clear everything', () => {
@@ -35,7 +35,7 @@ describe('User can get the final answer', () => {
     const result = calculate({
       total: '4', next: '3', operation: '-',
     }, '=');
-    expect(result.total).toEqual(1);
+    expect(result.total).toEqual('1');
   });
 });
 
