@@ -63,7 +63,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .d-result {
@@ -96,7 +96,7 @@ button {
   font-size: 2rem;
 }
 
-.operateButton{
+.operateButton {
   background: #f1903d;
   font-size: 2rem;
 }
