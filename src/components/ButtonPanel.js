@@ -10,7 +10,7 @@ const ButtonPanel = ({ onClick }) => {
   const group5 = ['0', '.', '='];
 
   return (
-    <div className="main">
+    <div className="panel">
       <div>
         {group1.map(item => (
           <Button key={`${item} + ${Math.random(0, 100)}`} name={item} onClick={() => onClick(item)} />
